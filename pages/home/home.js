@@ -5,6 +5,20 @@ Page({
    * 页面的初始数据
    */
   data: {
+    swiperList:[
+      {
+        id:1,
+        image:"/images/home/swiper/1.jpg"
+      },
+      {
+        id:2,
+        image:"/images/home/swiper/2.jpg"
+      },
+      {
+        id:3,
+        image:"/images/home/swiper/3.jpg"
+      }
+    ]
   },
 
   /**
