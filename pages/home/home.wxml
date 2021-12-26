@@ -1,2 +1,12 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<swiper indicator-dots circular indicator-active-color="orange">
+<swiper-item>
+   <image src="/images/home/swiper/1.jpg"></image>
+</swiper-item>
+<swiper-item>
+   <image src="/images/home/swiper/2.jpg"></image>
+</swiper-item>
+<swiper-item>
+   <image src="/images/home/swiper/3.jpg"></image>
+</swiper-item>
+</swiper>
