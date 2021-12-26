@@ -1,5 +1,30 @@
 /* pages/home/home.wxss */
-image {
+.swiper-img {
   height: 100%;
   width: 100%;
+}
+.grid-list {
+  display: flex;
+  flex-wrap: wrap;
+  border-left: 1px solid #efefef;
+  border-top: 1px solid #efefef;
+}
+.grid-item {
+  width: 33.3%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  box-sizing: border-box;
+}
+.grid-item image {
+  height: 60rpx;
+  width: 60rpx;
+}
+.grid-item text {
+  font-size: 24rpx;
+  margin-top: 15rpx;
 }

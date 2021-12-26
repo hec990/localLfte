@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    // 轮播图数据
     swiperList:[
       {
         id:1,
@@ -18,13 +19,24 @@ Page({
         id:3,
         image:"/images/home/swiper/3.jpg"
       }
-    ]
+    ],
+    // 九宫格数据
+    gridList:[]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    wx.request({
+      url: 'https://www.escook.cn/categories',
+      method:"GET",
+      success:(res)=>{
+        this.setData({
+           gridList: res.data
+        })
+      }
+    })
   },
 
   /**
