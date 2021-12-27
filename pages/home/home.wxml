@@ -16,4 +16,10 @@
   </view>
 </view>
 
+<!-- 其他功能 -->
+<view class="other">
+  <view class="seller">商家推荐</view>
+  <view class="cose">交友论坛</view>
+</view>
+
 

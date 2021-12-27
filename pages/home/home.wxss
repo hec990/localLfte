@@ -28,3 +28,26 @@
   font-size: 24rpx;
   margin-top: 15rpx;
 }
+
+.other {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20rpx;
+}
+.other view {
+  width: 300rpx;
+  height: 150rpx;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  font-size: 40rpx;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.other view:nth-child(1){
+  background-color: #ec6577;
+}
+.other view:nth-child(2){
+  background-color: #9ac3e3;
+}
